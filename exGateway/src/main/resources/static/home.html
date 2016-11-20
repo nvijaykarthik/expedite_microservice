@@ -1,0 +1,10 @@
+<h1>Greeting</h1>
+<div ng-show="authenticated">
+<div ng-repeat="grt in controller.greeting">
+	<p>The ID is {{grt.key}}</p>
+	<p>The content is {{grt.value}}</p>
+</div>	
+</div>
+<div  ng-show="!authenticated">
+	<p>Login to see your greeting</p>
+</div>
