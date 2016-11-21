@@ -23,3 +23,6 @@ http://mdbootstrap.com/forums/forum/support/
 
 Contact:
 office@mdbootstrap.com
+
+
+http://mdbootstrap.com/live/_MDB/index/docs/presentation-free/lp-components.html

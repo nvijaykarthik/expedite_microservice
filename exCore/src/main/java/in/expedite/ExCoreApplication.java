@@ -7,11 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import in.expedite.repository.ConfigurationRepository;
 
 @SpringBootApplication
+@EnableResourceServer
 public class ExCoreApplication extends SpringBootServletInitializer implements CommandLineRunner{
 
 	public static void main(String[] args) {
