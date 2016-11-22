@@ -10,17 +10,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 
 	<!-- Open Sans font from Google CDN -->
-	<link href="../fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin" rel="stylesheet" type="text/css">
 
 	<!-- Pixel Admin's stylesheets -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/pixel-admin.min.css" rel="stylesheet" type="text/css">
-	<link href="css/pages.min.css" rel="stylesheet" type="text/css">
-	<link href="css/rtl.min.css" rel="stylesheet" type="text/css">
-	<link href="css/themes.min.css" rel="stylesheet" type="text/css">
+	<link href="/uaa/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/uaa/css/pixel-admin.min.css" rel="stylesheet" type="text/css">
+	<link href="/uaa/css/pages.min.css" rel="stylesheet" type="text/css">
+	<link href="/uaa/css/rtl.min.css" rel="stylesheet" type="text/css">
+	<link href="/uaa/css/themes.min.css" rel="stylesheet" type="text/css">
 
 	<!--[if lt IE 9]>
-		<script src="assets/javascripts/ie.min.js"></script>
+		<script src="/uaa/js/ie.min.js"></script>
 	<![endif]-->
 
 </head>
@@ -42,11 +42,9 @@
 
 	Main navigation
 -->
-	<div class="signin-header">
-		<a href="index.html" class="logo">
-			<div class="demo-logo bg-primary"><img src="/demo/logo-big.png" alt="" style="margin-top: -4px;"></div>&nbsp;
-			<strong>Expedite</strong>
-		</a> <!-- / .logo -->
+	<div class="signin-header" style="background:#333;color:#fff;">
+		<div class="demo-logo"><img src="/uaa/demo/logo-big.png" alt="" style="margin-top: -4px;"></div>&nbsp;
+		<strong>Expedite</strong>
 	</div> <!-- / .header -->
 
 	<div class="panel-primary" style="background:#fff;border:#ddd 1px solid;margin: 20px;padding:20px;" >
@@ -74,13 +72,13 @@
 		</div>
 	</div>
 <!-- Expedite's javascripts -->
-		<script src="js/jquery-1.10.2.min.js"></script> 
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/pixel-admin.min.js"></script>
-		<script src="js/angular.min.js"></script>
-		<script src="js/angular-route.min.js"></script>
-		<script src="js/angular-resource.min.js"></script>
-		<script src="js/expedite.js"></script>
+		<script src="/uaa/js/jquery-1.10.2.min.js"></script> 
+		<script src="/uaa/js/bootstrap.min.js"></script>
+		<script src="/uaa/js/pixel-admin.min.js"></script>
+		<script src="/uaa/js/angular.min.js"></script>
+		<script src="/uaa/js/angular-route.min.js"></script>
+		<script src="/uaa/js/angular-resource.min.js"></script>
+		<script src="/uaa/js/expedite.js"></script>
 
 
 <script type="text/javascript">

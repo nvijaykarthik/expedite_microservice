@@ -16,6 +16,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -44,6 +45,7 @@ import in.expedite.service.UserService;
 @Controller
 @SessionAttributes("authorizationRequest")
 @EnableResourceServer
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class AuthserverApplication extends WebMvcConfigurerAdapter implements CommandLineRunner {
 
 	@RequestMapping("/user")
@@ -117,8 +119,8 @@ public class AuthserverApplication extends WebMvcConfigurerAdapter implements Co
 		@Override
 		public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
 			clients.inMemory()
-					.withClient("acme")
-					.secret("acmesecret")
+					.withClient("expedite")
+					.secret("etidepxe")
 					.authorizedGrantTypes("authorization_code", "refresh_token",
 							"password").scopes("openid");
 		}

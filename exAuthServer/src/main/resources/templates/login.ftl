@@ -41,11 +41,9 @@
 
 	Main navigation
 -->
-	<div class="signin-header">
-		<a href="index.html" class="logo">
-			<div class="demo-logo bg-primary"><img src="/demo/logo-big.png" alt="" style="margin-top: -4px;"></div>&nbsp;
-			<strong>Expedite</strong>
-		</a> <!-- / .logo -->
+	<div class="signin-header" style="background:#333;color:#fff;">
+		<div class="demo-logo"><img src="/uaa/demo/logo-big.png" alt="" style="margin-top: -4px;"></div>&nbsp;
+		<strong>Expedite</strong>
 	</div> <!-- / .header -->
 
 	<h1 class="form-header">Sign in to your Account</h1>
